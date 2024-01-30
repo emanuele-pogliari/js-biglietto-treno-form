@@ -1,5 +1,29 @@
+body {
+    background-color: #B91450;
+}
+
+.my_form {
+    color: #B91450;
+}
+
+.my_btn {
+    color: #B91450;
+    background-color: rgb(181, 173, 173);
+}
+
+input.form-control {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid #B91450;
+}
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
+}
+
+.passenger-info {
+    background-color: grey;
 }
