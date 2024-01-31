@@ -8,8 +8,6 @@ document.getElementById("genera").addEventListener("click", function () {
     kilometers = document.getElementById("inputKm").value;
     age = document.getElementById("inputAge").value;
 
-    kilometers = Number(kilometers);
-    age = Number(age);
     let priceTicket = kilometers * 0.21;
 
     if (!isNaN(age) && !isNaN(kilometers) && (age > 0 && age < 110) && (kilometers > 0) && (age % 1 === 0 && kilometers % 1 === 0)) {
