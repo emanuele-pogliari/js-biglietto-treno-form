@@ -27,3 +27,8 @@ input::-webkit-inner-spin-button {
 .passenger-info {
     background-color: grey;
 }
+
+
+#error-cont {
+    display: none;
+}
