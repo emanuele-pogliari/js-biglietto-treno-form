@@ -32,3 +32,8 @@ input::-webkit-inner-spin-button {
 #error-cont {
     display: none;
 }
+
+#error {
+    color: #B91450;
+
+}

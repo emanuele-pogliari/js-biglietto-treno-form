@@ -28,9 +28,10 @@ document.getElementById("genera").addEventListener("click", function () {
         document.getElementById("error").style.display = "block";
         document.getElementById("error-cont").style.display = "block";
 
-        if (isNaN(age) || (age < 0 && age > 110) || (age % 1 != 0)) {
+        if (isNaN(age) || (age < 0 || age > 110) || (age % 1 != 0)) {
+
+            document.getElementById("error").innerHTML = "Hai inserito un valore non valido per l'età. Ricarica la pagina con un click sul bottone annulla";
             check_age = 1;
-            document.getElementById("error").innerText = "Hai inserito un valore non valido per l'età. Ricarica la pagina con un click sul bottone annulla";
         }
 
         if (isNaN(kilometers) || kilometers < 0 || (kilometers % 1 != 0)) {
